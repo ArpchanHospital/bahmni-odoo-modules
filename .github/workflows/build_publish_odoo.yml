@@ -36,4 +36,4 @@ jobs:
           platforms: linux/amd64
           file: package/docker/odoo/Dockerfile
           push: true
-          tags: ArpchanHospital/odoo-16:${{env.ARTIFACT_VERSION}},ArpchanHospital/odoo-16:latest
+          tags: itsolutionsdocker/odoo-16:${{env.ARTIFACT_VERSION}},itsolutionsdocker/odoo-16:latest
